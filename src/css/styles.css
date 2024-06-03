@@ -123,4 +123,9 @@ ul {
 
 .feedback-form > label > textarea {
   height: 80px;
+  padding-top: 16px;
+}
+
+.feedback-form > label > textarea:hover {
+  border: 1px solid #000000;
 }
