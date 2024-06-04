@@ -32,7 +32,7 @@ function handleSubmit(event) {
   if (!form.elements.email.value || !form.elements.message.value) {
     alert('Please, fill in all fields');
   } else {
-    console.log(formData);
+    console.log(JSON.parse(localStorage.getItem('feedback-form-state')));  //   <--- поменяла тут    
     localStorage.clear();
     form.reset();
   }
